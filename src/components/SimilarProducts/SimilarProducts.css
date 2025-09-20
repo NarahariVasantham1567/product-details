@@ -1,0 +1,42 @@
+.similar-products-container {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  width: 161px;
+  height: 48px;
+}
+
+.arrow-btn {
+  width: 72px;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid #5d5d5d;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.products {
+  height: 377px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

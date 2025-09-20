@@ -1,0 +1,37 @@
+.product-feature-container {
+  /* width: 100%; */
+  padding: 80px 160px;
+  background-color: #f1f2f7;
+  margin: 3rem 0;
+}
+
+.product-feature {
+  width: 986px;
+  height: 249px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.feature-btn-container {
+  width: 647px;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 56px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.description {
+  width: 986px;
+  height: 180px;
+  font-size: 1rem;
+  font-weight: 400;
+}
