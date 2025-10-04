@@ -68,3 +68,15 @@
   font-weight: 500;
   color: #737373;
 }
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-container li {
+  text-decoration: none;
+  color: black;
+}

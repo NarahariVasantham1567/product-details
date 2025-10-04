@@ -4,6 +4,7 @@ import { ImFacebook } from 'react-icons/im';
 import { FaTwitter } from 'react-icons/fa';
 import { FaPinterestP } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -27,17 +28,37 @@ export default function Footer() {
       <div className='category-and-links-container'>
         <div className='category-container'>
           <h3 className='category-heading'>Categories</h3>
-          <p>Claw Clips</p>
-          <p>Earring</p>
-          <p>Scrunchies</p>
-          <p>Hair Bows</p>
+          <ul className='list-container'>
+            <li>
+              <Link to='#'>Claw Clips</Link>
+            </li>
+            <li>
+              <Link to='#'>Earring</Link>
+            </li>
+            <li>
+              <Link to='#'>Scrunchies</Link>
+            </li>
+            <li>
+              <Link to='#'>Hair Bows</Link>
+            </li>
+          </ul>
         </div>
         <div className='category-container'>
           <h3 className='category-heading'>Quick Links</h3>
-          <p>Claw Clips</p>
-          <p>Earring</p>
-          <p>Scrunchies</p>
-          <p>Hair Bows</p>
+          <ul className='list-container'>
+            <li>
+              <Link to='#'>Claw Clips</Link>
+            </li>
+            <li>
+              <Link to='#'>Earring</Link>
+            </li>
+            <li>
+              <Link to='#'>Scrunchies</Link>
+            </li>
+            <li>
+              <Link to='#'>Hair Bows</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

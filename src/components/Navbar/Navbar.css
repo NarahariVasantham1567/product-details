@@ -13,7 +13,6 @@
 
 .links-container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   gap: 1rem;
 }
@@ -65,7 +64,6 @@ a:active {
 
 .icon-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 1rem;
   position: relative;
